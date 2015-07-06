@@ -1,0 +1,33 @@
+#seguindo instruções do site http://www.microsoftvirtualacademy.com/training-courses/introduction-to-programming-with-python_ptb 
+
+#My first code in python
+print('Hello World')
+
+#My second code
+print('Primeira forma de impressão')
+print("Segunda forma de impressão")
+
+#My thirde code (Quebra de linha)
+print("Estou fazendo uma ")
+print("quebra de linhas sem usar codigos especiais")
+
+print("Estou fazendo uma \n quebra de linhas usando codigos especiais")
+
+print("""Estou fazendo outra forma de exibir 
+textos em outra linha""")
+
+#Exercício de fixação da aula2
+#Fazer um programa que exiba a seguinte tela
+#"Era uma vez um ícone do cinema que preferia dormir de luz acesa.#####
+#Aprenderam a codificar um dispositivo que brilhava e iluminava a noite usando o python!"
+
+#Primeira forma de exibir um texto com (' ... ')
+print('\"Era uma vez um icone do cinema que preferia dormir de luz acesa.')                         
+print('Aprenderam a codificar um dispositivo que brilhava e iluminava a noite usando o python!\"')  
+
+#Segunda forma de exibir um texto com (" ... ")
+print("\"Era uma vez um icone do cinema que preferia dormir de luz acesa.\nAprenderam a codificar um dispositivo que brilhava e iluminava a noite usando o python!\"")
+
+#Terceira forma de exibir um texto com ("""...""" ou """...''')
+print("""\"Era uma vez um icone do cinema que preferia dormir de luz acesa.
+Aprenderam a codificar um dispositivo que brilhava e iluminava a noite usando o python!\"""")
