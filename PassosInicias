@@ -55,15 +55,6 @@ name = ("Lima junior")
 print(name)         #inpressão dos dados modificados
 
 
-
-#Modificação de mensagem
-
-mensagem = 'Hello World'
-print(mensagem.lower())     #modificada para minusculo
-print(mensagem.upper())     #modificida para maiusculo
-print(mensagem.swapcase())  #modificada para a primeira letra ficar minuscula
-
-
 Modificação de mensagem
 
 mensagem = 'Hello World'
