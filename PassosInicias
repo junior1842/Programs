@@ -68,3 +68,37 @@ tipo, "espaço em branco" usou "espaço em branco" para "espaço em branco".
 E façam aparecer prompts às pessas precisem preencher os espaços em branco.
 Peça elas para inserirem um nome, um substantivo, um adjetivo, um verbo, ou o que quiser 
 e depois mostrem a história.
+
+#resoluão
+
+###inserção de dados pelo usuário###
+IDE = input("Qual a ide voce usa?")             #pede ao usuario o nome da IDE que ele está usando
+motivo = input("Por que o sistema nao esta rodando seu codigo?")        #Pergunta ao usuário qual o motivo da IDE não está rodando o código
+resolucao = input("Me diga qual o problema realmente?")                 #Pergunta o usuário qual uma solução indireta para o problema
+
+####Modificação dos dados####
+IDE = IDE.upper()       #transforma o texto inserido em maiúsculo
+motivo = motivo.upper()    #transforma o texto inserido em maiúsculo
+resolucao = resolucao.upper()   #transforma o texto inserido em maiúsculo
+
+###Exibição do texto###
+print("\tEstou inventando uma historia, pois por algum motivo o " +IDE+ " nao \n esta querendo rodar meu codigo.")
+print("Acho que devo ter encontrado o erro! \nNotei que ao tirar os "+resolucao+ "das palavras o \nsistema executa o codigo.")
+print("Mas e agora como que eu vou exibir um texto \nacentuado corretamento? Essa falta de "+motivo+", esta modificado meu programa.")
+print("O que eu vou fazer pra resolver esse problema e procurar na documentacao do programa como exibir textos com acentos dentro da instrucao \"print\". ")
+
+
+##aula 4
+#adição 			5+2 = 7
+#subtração 		    5-2 = 3
+#multipicação		5*2 = 10
+#divisão 		    5/2 = 2.5
+#expoente 		    5**2 = 25
+#resto da divisão	5%2 = 1
+
+#Ordem das operations
+#() parenteses
+#** expoente (e.g. **2 squared **3 cubed)
+#*/ multiplication and division
+#+ - adição e subtração
+#operadores matemáticos
