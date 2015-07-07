@@ -31,3 +31,49 @@ print("\"Era uma vez um icone do cinema que preferia dormir de luz acesa.\nApren
 #Terceira forma de exibir um texto com ("""...""" ou """...''')
 print("""\"Era uma vez um icone do cinema que preferia dormir de luz acesa.
 Aprenderam a codificar um dispositivo que brilhava e iluminava a noite usando o python!\"""")
+
+#aula3 strings e variáveis
+#solicita ao usuário para inserir dados (nome)
+#name = input("Qual o seu nome?\n")
+##name = input("")
+##print (name)
+
+##solicita ao usuário para inserir dados (idade)
+#idade = input("Qual a sua idade?\n")
+##idade = input("")
+##print(idade)
+
+##escreve na entre frases os dados inseridos pelo usuário
+#print ("Meu nome e " + (name) + " e eu tenho " + (idade) + " anos de idade")
+
+#solicitando dados
+name = input("Qual o seu nome?")
+print(name)         #impressão dos dados solicitados
+
+#modificando os dados iniciais inseridos
+name = ("Lima junior")
+print(name)         #inpressão dos dados modificados
+
+
+
+#Modificação de mensagem
+
+mensagem = 'Hello World'
+print(mensagem.lower())     #modificada para minusculo
+print(mensagem.upper())     #modificida para maiusculo
+print(mensagem.swapcase())  #modificada para a primeira letra ficar minuscula
+
+
+Modificação de mensagem
+
+mensagem = 'Hello World'
+print(mensagem.lower())     #modificada para minusculo
+print(mensagem.upper())     #modificida para maiusculo
+print(mensagem.swapcase())  #modificada para a primeira letra ficar minuscula
+
+#Exercício de fixação aula3
+pegar um livro ou inventar uma história, 
+tipo, "espaço em branco" usou "espaço em branco" para "espaço em branco".
+E façam aparecer prompts às pessas precisem preencher os espaços em branco.
+Peça elas para inserirem um nome, um substantivo, um adjetivo, um verbo, ou o que quiser 
+e depois mostrem a história.
