@@ -96,9 +96,23 @@ print("O que eu vou fazer pra resolver esse problema e procurar na documentacao 
 #expoente 		    5**2 = 25
 #resto da divisão	5%2 = 1
 
-#Ordem das operations
+#Ordem das operaçõesons
 #() parenteses
 #** expoente (e.g. **2 squared **3 cubed)
 #*/ multiplication and division
 #+ - adição e subtração
 #operadores matemáticos
+
+
+#Fixando conteúdo
+#Criar uma calculadora de hipoteca
+#você irá calcular um pagamento mensal
+#o usuário irá informar o valor do impréstimo, taxa de juros
+#e o número de pagamentos.
+
+#M = L[i(1+1)n]/[(1+i)n-1]
+
+#M = pagamento mensal
+#L = montante do empréstimo
+#i = interese de um mais i vezes
+#n = numero de pagamentos
