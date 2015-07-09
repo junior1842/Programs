@@ -116,3 +116,29 @@ print("O que eu vou fazer pra resolver esse problema e procurar na documentacao 
 #L = montante do empréstimo
 #i = interese de um mais i vezes
 #n = numero de pagamentos
+
+#import da acesso a classe datetime
+import datetime
+#today é a função que retorna a data de hoje
+#print(datetime.date.today())
+
+
+#aula 5
+#armazenando a função em um variavel
+datadeHoje = datetime.date.today()
+#print(datadeHoje)       #imprimindo dia/mês/ano da forma americana.
+#print("Oi, eu sou o ano %d "%datadeHoje.year)  #imprimindo o ano.
+#print("Hello I am the month %d" %datadeHoje.month) #imprimindo o mês.
+#print("Ola eu sou o dia %d" %datadeHoje.day)   #imprimindo o dia.
+
+#stftime lhe permite especificar o formato da data
+#print(datadeHoje.strftime('%d %b %y'))
+#%d representa o dia 
+#%b representa o mês
+#%y representa o ano com os ultimos dois digitos
+#colocando os atributos como letra maiscula você exibe o resultado completo sem abreviações
+
+print(datadeHoje.strftime('%A %d %B %Y'))
+
+#lista completa dos atriutos que podem ser usados na função strftime em : strftime.org
+#outras indicações babel.pocoo.org/
